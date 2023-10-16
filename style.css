@@ -31,4 +31,13 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+
+  /* border: 1px solid  rgb(50, 167, 145); */
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: flex-end;
 }
