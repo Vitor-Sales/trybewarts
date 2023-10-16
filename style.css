@@ -41,3 +41,7 @@ main {
   height: 500px;
   align-self: flex-end;
 }
+
+.input-name-lastname {
+  display: flex;
+}
