@@ -42,6 +42,7 @@ main {
   align-self: flex-end;
 }
 
-.input-name-lastname {
+.form-container {
   display: flex;
+  gap: 20px;
 }
