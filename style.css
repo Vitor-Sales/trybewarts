@@ -55,7 +55,7 @@ main {
   width: 100px;
 }
 
-#form-data {
+/* #form-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +64,7 @@ main {
   border-radius: 40px;
   width: 300px;
   margin: 0 30px;
-}
+} */
 
 footer {
   background-color: rgb(50, 167, 145);
