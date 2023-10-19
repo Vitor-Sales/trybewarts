@@ -118,11 +118,19 @@
             <label for="textarea" class="textarea form-check-label">Descreva os principais pontos de aprendizado até aqui (1 hard skill / 1 soft skill):
             </label>
             <textarea name="question" id="textarea" cols="20" rows="5" minlength="20" maxlength="500" placeholder="resposta à pergunta"></textarea>
+            <span id="counter">500/500</span>
             <div class="form-check">
                 <label for="agreement" id="label-infos" class="form-check-label">Você concorda com o uso das informações acima?</label>
                 <input type="checkbox" class="form-check-input" name="agreement" id="agreement">
             </div>
             <button type="submit" id="submit-btn" class="btn btn-outline-primary btn-form" disabled>Enviar</button>
+        </form>
+        <form action="" id="form-data">
+            <p id="nome"></p>
+            <p id="modal-email"></p>
+            <p id="modal-house"></p>
+            <p id="modal-family"></p>
+            <p id="modal-classes"></p>
         </form>
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts Logo">
     </main>

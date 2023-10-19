@@ -8,6 +8,9 @@
   background-color: rgb(50, 167, 145);
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .trybewarts-header-logo {
@@ -25,6 +28,7 @@
 
 main {
   display: flex;
+  margin-top: 100px;
 }
 
 #evaluation-form {
@@ -51,12 +55,23 @@ main {
   width: 100px;
 }
 
+#form-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E0B48F;
+  border-radius: 40px;
+  width: 300px;
+  margin: 0 30px;
+}
+
 footer {
   background-color: rgb(50, 167, 145);
   color: white;
   padding: 10px;
-  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-top: 45px;
 }
