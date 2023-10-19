@@ -60,7 +60,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #E0B48F;
+  background-color: rgb(204, 183, 127);
   border-radius: 40px;
   width: 300px;
   margin: 0 30px;

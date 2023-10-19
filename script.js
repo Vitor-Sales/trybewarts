@@ -3,9 +3,9 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const agreement = document.getElementById('agreement');
 const submitBtn = document.getElementById('submit-btn');
-const textArea = document.getElementById('textarea');
-const characterCounter = document.getElementById('counter');
-const maxNumOfChars = 500;
+// const textArea = document.getElementById('textarea');
+// const characterCounter = document.getElementById('counter');
+// const maxNumOfChars = 500;
 const evaluationForm = document.getElementById('evaluation-form');
 const name = document.getElementById('input-name');
 const lastName = document.getElementById('input-lastname');
@@ -30,11 +30,11 @@ const ableSubmit = () => {
   submitBtn.disabled = !agreement.checked;
 };
 
-const countCharacters = () => {
-  const numOfEnteredChars = textArea.value.length;
-  const counter = maxNumOfChars - numOfEnteredChars;
-  characterCounter.textContent = counter + `/${maxNumOfChars}`;
-};
+// const countCharacters = () => {
+//   const numOfEnteredChars = textArea.value.length;
+//   const counter = maxNumOfChars - numOfEnteredChars;
+//   characterCounter.textContent = counter + `/${maxNumOfChars}`;
+// };
 
 const sendToStorage = () => {
   localStorage.setItem('name', name.value);
@@ -60,7 +60,6 @@ const formDisappear = (event) => {
   sendToStorage();
   getFromStorage();
   evaluationForm.style.display = 'none';
-  
 };
 
 // select.style.backgroundColor = 'red';
@@ -68,6 +67,6 @@ const formDisappear = (event) => {
 window.onload = () => {
   entrarBtn.addEventListener('click', checkEmail);
   agreement.addEventListener('change', ableSubmit);
-  textArea.addEventListener('input', countCharacters);
+  // textArea.addEventListener('input', countCharacters);
   submitBtn.addEventListener('click', formDisappear);
 };
